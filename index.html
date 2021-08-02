@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+         
+    </head>
+    <body>
+        <div id='container'>
+            <div id='calc-container'>
+                <div class="display">
+                    <div class="screen-last" id="lastOperationScreen"></div>
+                    <div class="screen-current" id="currentOperationScreen">0</div>
+                </div>
+                <button class='clear-button btn' id='clear-button'>CLEAR</button>
+                <button class='backspace-button btn' id='delete-button'>DELETE</button>
+                <button class='button-7 btn' data-number>7</button>
+                <button class='button-8 btn' data-number>8</button>
+                <button class='button-9 btn' data-number>9</button>
+                <button class='divide-button btn' data-operator>÷</button>
+                <button class='button-4 btn' data-number>4</button>
+                <button class='button-5 btn' data-number>5</button>
+                <button class='button-6 btn' data-number>6</button>
+                <button class='button-x btn' data-operator>x</button>
+                <button class='button-1 btn' data-number>1</button>
+                <button class='button-2 btn' data-number>2</button>
+                <button class='button-3 btn' data-number>3</button>
+                <button class='minus-button btn' data-operator>-</button>
+                <button class='dot-button btn' id='dot-button'>.</button>
+                <button class='button-0 btn' data-number>0</button>
+                <button class='equal-button btn' id='equal-button'>=</button>
+                <button class='add-button btn' data-operator>+</button>
+            </div>
+        </div>
+
+        <script src='script.js'></script>
+    </body>
+</html>
