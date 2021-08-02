@@ -1,0 +1,256 @@
+html, body {
+    background-color: #fff;
+    font-family: 'Special Elite', cursive;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calc-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding: 20px;
+    margin-top: 5.5rem;
+    height: 515px;
+    width: 360px;
+    border: 3px solid black;
+    border-radius: 3%;
+    column-gap: 15px;
+    row-gap: 15px;
+    background-color: rgba(125, 159, 161, 0.945);
+}
+
+.display {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(217, 228, 224);
+    padding: 0px 15px;
+    margin-top: .5rem;
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 110px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.screen-last {
+    min-height: 32px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .screen-current {
+    min-height: 64px;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+.clear-button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.backspace-button {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-9 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.divide-button {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-x {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.minus-button {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.dot-button {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button-0 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.equal-button {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.add-button {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.btn {
+    cursor: pointer;
+    transition: all 0.01s;
+}
+
+.btn:hover {
+    transform: scale(1.01, 1.01);
+    background-color: rgb(209, 228, 228);
+}
+
+.btn:active {
+    transform: scale(0.98, 0.98);
+    background-color: rgb(115, 170, 170);
+}
+
+.clear-button:hover {
+    background-color: rgb(255, 122, 122);
+}
+
+.backspace-button:hover {
+    background-color: rgb(140, 140, 252);
+}
