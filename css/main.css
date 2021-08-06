@@ -19,7 +19,7 @@ html, body {
     margin-top: 5.5rem;
     height: 515px;
     width: 360px;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 3%;
     column-gap: 15px;
     row-gap: 15px;
@@ -34,7 +34,7 @@ html, body {
     background-color: rgb(217, 228, 224);
     padding: 0px 15px;
     margin-top: .5rem;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
     height: 110px;
     text-align: right;
@@ -46,6 +46,7 @@ html, body {
     min-height: 32px;
     font-size: 20px;
     margin-top: 10px;
+    opacity: 0.9;
   }
   
   .screen-current {
@@ -60,7 +61,7 @@ html, body {
     grid-row-start: 2;
     grid-row-end: 3;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -70,7 +71,7 @@ html, body {
     grid-row-start: 2;
     grid-row-end: 3;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -80,7 +81,7 @@ html, body {
     grid-row-start: 3;
     grid-row-end: 4;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -90,7 +91,7 @@ html, body {
     grid-row-start: 3;
     grid-row-end: 4;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -100,7 +101,7 @@ html, body {
     grid-row-start: 3;
     grid-row-end: 4;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -110,7 +111,7 @@ html, body {
     grid-row-start: 3;
     grid-row-end: 4;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -120,7 +121,7 @@ html, body {
     grid-row-start: 4;
     grid-row-end: 5;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -130,7 +131,7 @@ html, body {
     grid-row-start: 4;
     grid-row-end: 5;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -140,7 +141,7 @@ html, body {
     grid-row-start: 4;
     grid-row-end: 5;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -150,7 +151,7 @@ html, body {
     grid-row-start: 4;
     grid-row-end: 5;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -160,7 +161,7 @@ html, body {
     grid-row-start: 5;
     grid-row-end: 6;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -170,7 +171,7 @@ html, body {
     grid-row-start: 5;
     grid-row-end: 6;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -180,7 +181,7 @@ html, body {
     grid-row-start: 5;
     grid-row-end: 6;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -190,7 +191,7 @@ html, body {
     grid-row-start: 5;
     grid-row-end: 6;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -200,7 +201,7 @@ html, body {
     grid-row-start: 6;
     grid-row-end: 7;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -210,7 +211,7 @@ html, body {
     grid-row-start: 6;
     grid-row-end: 7;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -220,7 +221,7 @@ html, body {
     grid-row-start: 6;
     grid-row-end: 7;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
@@ -230,7 +231,7 @@ html, body {
     grid-row-start: 6;
     grid-row-end: 7;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 3px;
 }
 
